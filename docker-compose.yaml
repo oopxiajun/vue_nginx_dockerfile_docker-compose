@@ -1,0 +1,8 @@
+version: '2'
+services:
+  myvueweb:
+    build: .
+    ports:
+      - "3000:80"
+    image: myvueweb
+
